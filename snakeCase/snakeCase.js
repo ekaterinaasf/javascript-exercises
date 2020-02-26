@@ -1,5 +1,6 @@
-const snakeCase = function() {
+const snakeCase = function(str) {
+  rez = "";
+  str = str.split(" ");
+};
 
-}
-
-module.exports = snakeCase
+module.exports = snakeCase;
