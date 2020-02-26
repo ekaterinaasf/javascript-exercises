@@ -1,6 +1,7 @@
 const snakeCase = function(str) {
   rez = "";
-  str = str.split(" ");
+  rez = str.split(" ").join("_");
+  return rez;
 };
 
 module.exports = snakeCase;
