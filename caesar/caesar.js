@@ -30,9 +30,9 @@ function caesar(str, n) {
   console.log("Encrypted output: ", rez);
   return rez;
 }
-caesar("A", 1);
+/* caesar("A", 1);
 caesar("Aaa", 1);
 caesar("Hello, World!", 5);
-caesar("Mjqqt, Btwqi!", -5);
+caesar("Mjqqt, Btwqi!", -5); */
 
-//module.exports = caesar;
+module.exports = caesar;
