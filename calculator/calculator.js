@@ -7,7 +7,11 @@ function subtract(a, b) {
 }
 
 function sum(arr) {
-  return arr.reduce((a, b) => a + b);
+  if (arr.length === 0) {
+    return 0;
+  } else {
+    return arr.reduce((a, b) => a + b);
+  }
 }
 
 function multiply(arr) {

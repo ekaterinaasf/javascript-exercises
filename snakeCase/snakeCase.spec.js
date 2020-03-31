@@ -4,7 +4,7 @@ describe("snakeCase", function() {
   it("works with simple lowercased phrases", function() {
     expect(snakeCase("hello world")).toEqual("hello_world");
   });
-  xit("works with Caps and punctuation", function() {
+  it("works with Caps and punctuation", function() {
     expect(snakeCase("Hello, World???")).toEqual("hello_world");
   });
   xit("works with longer phrases", function() {
